@@ -1,1 +1,0 @@
-/Users/phawk/Dropbox/development/scripts/bash/setupmim.sh
