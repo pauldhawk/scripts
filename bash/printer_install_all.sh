@@ -2,7 +2,7 @@
 
 ## get count of new printers
 count=`ls /private/etc/cups/ppd | grep -i -E -c '((new_printer1)|(new_printer3)|(new_printer3))+'`
-old_printers=`ls /private/etc/cups/ppd | grep -i -E -c '((old_printer1)|(old_printer3)|(old_printer3))+'`
+old_printers=`ls /private/etc/cups/ppd | grep -i -E '((old_printer1)|(old_printer3)|(old_printer3))+'`
 
 # only run if the printers are not installed
 if [ $count -gt 0 ]
